@@ -1,0 +1,1 @@
+var nwgui = require('nw.gui');
