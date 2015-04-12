@@ -25,15 +25,6 @@ function listMain(){
 	});
 }
 
-function logWindow(cat){
-	lf.read(cat,logconfig,function(reader){
-		var wObj = nwgui.Window.open('logfile.html',{width: 400, height: 600});
-		wObj.on('loaded',function(){
-			while(reader.hasNextLine()){
-				this.window.fillLine(reader.nextLine());
-			}
-		});
-	});
-}
+
 
 listMain();
