@@ -1,0 +1,31 @@
+body{
+	font-family: arial;
+	border:none;
+	padding:0px;
+	font-size: 25px;
+	background-color:#00005A;
+}
+.half{
+	width: 47.8%;
+	float: left;
+	padding: 8px;
+	border: 2px solid #CCCCCC;
+	border-radius: 4px;
+}
+#groups{
+	background-color: #00002A;
+}
+.category{
+	padding: 8px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.category > a{
+	font-size: 40px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#message{
+	background-color: #FFFFFF;
+	color: #000000;
+	height: 600px;
+}
