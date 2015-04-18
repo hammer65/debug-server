@@ -1,15 +1,43 @@
 body{
 	font-family: arial;
-	border:none;
+	border:0px;
 	padding:0px;
+	margin:0px;
 	font-size: 25px;
 	background-color:#00005A;
 }
+.header{
+	text-align: center;
+	color: #FFFFFF;
+	font-size:25px;
+	font-weight:900;
+	margin:8px 0px;
+}
+#top-bar{
+	background-color:#2A2A33;
+	height:36px;
+	border-bottom:6px outset #2A2A33;
+}
+#top-bar span{
+	font-size:30px;
+	font-weight:900;
+	color:#CCCCCC;
+}
+#quit{
+	float:right;
+	cursor:pointer;
+	margin:3px 9px 3px 0px;
+}
+#clock{
+	float:left;
+	cursor:pointer;
+	margin:3px 0px 3px 9px;
+}
 .half{
-	width: 98%;
 	padding: 8px;
-	border: 2px solid #CCCCCC;
+	border: 3px solid #CCCCCC;
 	border-radius: 4px;
+	margin:8px;
 }
 #groups{
 	background-color: #00002A;
@@ -21,12 +49,14 @@ body{
 	border-bottom: 1px solid #CCCCCC;
 }
 #message{
-	background-color: #FFFFFF;
+	background-color: #00002A;
 	font-size:25;
 	color: #000000;
-	height: 400px;
+	height: 350px;
+	padding: 4px;
 	margin:8px 4px 4px 4px;
-	border:2px solid;
+	border:4px solid #CCCCCC;
+	border-radius: 4px;
 	overflow:auto;
 }
 .controls{

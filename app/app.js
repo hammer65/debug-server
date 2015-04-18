@@ -1,6 +1,7 @@
 var nwgui = require('nw.gui');
 var app = require('application');
 var lf = require('logfile');
+var clock = require('clock');
 
 var win = nwgui.Window.get();
 var dom = win.window;
@@ -14,3 +15,6 @@ var logconfig = {
 var application = new app(logconfig,nwgui);
 
 application.list();
+clock.on('update',function(time){
+	var el = $('#clock').html(time);
+});
